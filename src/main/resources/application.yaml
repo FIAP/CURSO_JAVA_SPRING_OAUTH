@@ -1,0 +1,23 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 102030
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 361231693409-1mamj5shr4f57p0jmvfu61g4lfe7m0ur.apps.googleusercontent.com
+            client-secret: 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
+      resourceserver:
+        jwt:
+          issuer-uri: https://accounts.google.com
