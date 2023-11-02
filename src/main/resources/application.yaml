@@ -17,7 +17,7 @@ spring:
         registration:
           google:
             client-id: 361231693409-1mamj5shr4f57p0jmvfu61g4lfe7m0ur.apps.googleusercontent.com
-            client-secret: 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
+            client-secret: sua_key
       resourceserver:
         jwt:
           issuer-uri: https://accounts.google.com
