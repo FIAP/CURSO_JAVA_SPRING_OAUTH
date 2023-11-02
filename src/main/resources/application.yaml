@@ -16,7 +16,7 @@ spring:
       client:
         registration:
           google:
-            client-id: 361231693409-1mamj5shr4f57p0jmvfu61g4lfe7m0ur.apps.googleusercontent.com
+            client-id: seu_client_id.apps.googleusercontent.com
             client-secret: sua_key
       resourceserver:
         jwt:
